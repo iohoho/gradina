@@ -1,0 +1,123 @@
+/***
+ * Generic markup
+ ***/
+
+body, div, a, ul, ol, li, table, tr, td, dd, dl, dt {
+  color: #1a0c00;
+  font: 11pt/15pt Verdana;
+  text-decoration: none;
+  }
+
+body {
+  background-color: #f0f0e5;
+  margin: 20px;
+  }
+
+/*** tables ***/
+
+td, th {
+  border: solid 1px #333;
+  padding: 2px;
+  margin: 0px;
+  }
+
+table, tbody, tr {
+  border: 0px solid #555;
+  padding: 0px;
+  margin: 0px;
+  }
+
+tr:nth-child(even) {
+  background-color: #ccc;
+  }
+
+tr:nth-child(odd) {
+  background-color: #eee;
+  }
+
+tr:nth-child(odd):hover, tr:nth-child(even):hover {
+  background: #bb8;
+  }
+
+thead {
+  border-bottom: 1pt solid #000;
+  }
+
+/*** headings ***/
+
+h1, h2, h3, h4, h5 {
+  color: #663000;
+  font-weight: bold;
+  }
+
+h1 {
+  font-size: 18pt;
+  margin: 20px 0 20px 0;
+  }
+
+h1.title {
+  font-size: 22pt;
+  }
+
+p.author, p.date {
+  font-style: italic;
+  }
+
+h2 {
+  font-size: 16pt;
+  margin: 20px 0 20px 0;
+  }
+
+h3 {
+  font-size: 14pt;
+  margin: 10px 0 5px 0;
+  }
+
+h4 {
+  font-size: 12pt;
+  font-style: italic;
+  margin: 0px;
+  }
+
+h5, h6 {
+  font-style: italic;
+  font-size: 11pt;
+  margin: 0px;
+  }
+
+/*** text ***/
+
+p {
+  margin: 10px 0 0 0;
+  }
+
+blockquote {
+  margin: 0px;
+  background-color: #fff9e6;
+  padding: 20px;
+  }
+
+blockquote p {
+  margin-top: 0;
+  }
+
+
+/*** links ***/
+
+a {
+  color: #4d2400;
+  }
+
+a:hover {
+  color:#804000;
+  text-decoration:underline;
+  }
+
+a:visited {
+  color:#4d2400;
+  }
+
+img {
+  vertical-align: middle;
+  width: auto !important;
+  }
